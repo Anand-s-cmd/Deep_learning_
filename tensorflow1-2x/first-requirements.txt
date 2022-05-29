@@ -1,0 +1,3 @@
+create new environment using "conda create -n tf2 python==3.6.9" 
+because i am using python 3.9 version so for tf2 i am gonna use python 3.6.9 version.
+conda activate tf2
