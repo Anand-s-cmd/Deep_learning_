@@ -1,0 +1,13 @@
+Steps it took to execute the LeNet file.
+
+create a new conda env using python=3.6 and install tensorflow version 1.14.0 later installed
+
+conda create --name tf2 python=3.6
+pip install --user tensorflow==1.14.0
+keras-> Try to do this:- Try the version of Keras 2.3.1
+
+pip install keras==2.3.1
+then also install that
+
+pip install git+https://www.github.com/keras-team/keras-contrib.git
+GitHub - keras-team/keras-contrib: Keras community contributions https://www.github.com
