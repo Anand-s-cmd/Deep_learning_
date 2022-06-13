@@ -1,0 +1,16 @@
+when filter size is 3*3
+number of kernels is 10---->image size is 27*27 then next feature map dimension is n-f+1----------> 27-3+1=25-> 25*25
+next if stride is given 2*2 then 10 featuremaps are created now next featuremap dimensionis ->(25-3/2)+1-> 12
+if pad is given pad=2 then ---> (25+2*2-3/stride(value))+1
+
+
+DIFF BETWEEN LENET 													& ALEXNET
+
+1. NO OF LAYERS WAS NOT HUGE                                       1. MORE NUMBER O LAYERS
+2. KERNEL SIZE WAS constant										   2. HERE THEY HAVE USED DIFFERENT KIND OF SIZES LIKE FROM 96 TO 256-384-384-256-256
+3. HERE THEY HAVE USED HYPERTANGENT FUNCTION I,E TANH()		       3. THEY HAVE USED RELU
+   INSTEAD OF RELU
+4. THEY HAVE NOT USED ANY NORMALIZATION FUNCTION TO CONTROL        4. THEY HAVE USED TO CONTROL THE RELU FUNCTION VALUES -
+   TANH VALUES														  LOCAL RESPONSE NORMALIZATION FOR HANDLING DATA 
+                                                                   5. FIRST TIME THEY HAVE USED GPU
+    															
